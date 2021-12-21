@@ -1,0 +1,132 @@
+{
+	"emulators": {
+		"default": {
+			"port": 3569,
+			"serviceAccount": "emulator-account"
+		}
+	},
+	"contracts": {
+		"Metaya": {
+			"source": "./contracts/Metaya.cdc",
+			"aliases": {
+				"testnet": "0x2c5bdf0e0d907421"
+			}
+		},
+		"MetayaUtilityCoin": {
+			"source": "./contracts/MetayaUtilityCoin.cdc",
+			"aliases": {
+				"testnet": "0x2c5bdf0e0d907421"
+			}
+		},
+		"MetayaShardedCollection": {
+			"source": "./contracts/MetayaShardedCollection.cdc",
+			"aliases": {
+				"testnet": "0x2c5bdf0e0d907421"
+			}
+		},
+		"MetayaBeneficiaryCut": {
+			"source": "./contracts/MetayaBeneficiaryCut.cdc",
+			"aliases": {
+				"testnet": "0x2c5bdf0e0d907421"
+			}
+		},
+		"NFTStorefront": {
+			"source": "./contracts/NFTStorefront.cdc",
+			"aliases": {
+				"testnet": "0x94b06cfca1d8a476"
+			}
+		},
+		"SoundlinksDID": {
+			"source": "./contracts/SoundlinksDID.cdc",
+			"aliases": {
+				"testnet": "0x2771ed97c1150a08"
+			}
+		},
+		"FungibleToken": {
+			"source": "./contracts/FungibleToken.cdc",
+			"aliases": {
+				"emulator": "0xee82856bf20e2aa6",
+				"testnet": "0x9a0766d93b6608b7"
+			}
+		},
+		"NonFungibleToken": {
+			"source": "./contracts/NonFungibleToken.cdc",
+			"aliases": {
+				"testnet": "0x631e88ae7f1d7c20"
+			}
+		},
+		"FlowStorageFees": {
+			"source": "./contracts/FlowStorageFees.cdc",
+			"aliases": {
+				"testnet": "0x8c5303eaa26202d6"
+			}
+		},
+		"FlowToken": {
+			"source": "./contracts/FlowToken.cdc",
+			"aliases": {
+				"emulator": "0x0ae53cb6e3f42a79",
+				"testnet": "0x7e60df042a9c0868"
+			}
+		}
+	},
+	"networks": {
+		"emulator": "127.0.0.1:3569",
+		"mainnet": "access.mainnet.nodes.onflow.org:9000",
+		"testnet": "access.devnet.nodes.onflow.org:9000"
+	},
+	"accounts": {
+		"emulator-account": {
+			"address": "f8d6e0586b0a20c7",
+			"key": "05e2a08e37c6b79eefb7a6d11363bfd3a060f7e0c6e945e07dd9669b2815f245"
+		},
+		"testnet-account-metaya": {
+			"address": "0x2c5bdf0e0d907421",
+			"keys": "${FLOW_METAYA_PRIVATE_KEY}"
+		},
+		"testnet-account-soundlinks": {
+			"address": "0x2771ed97c1150a08",
+			"keys": "${FLOW_SOUNDLINKS_PRIVATE_KEY}"
+		},
+		"testnet-account": {
+			"address": "0xd542317949eb00b6",
+			"keys": "edb326ca470a83d5142f466cd37cda029707dda2a2996a5c8c125717cc7ce9f3"
+		},
+		"testnet-account2": {
+			"address": "0x312588a458110069",
+			"keys": "f20788209540ac467830b4768c06b0ed7dbcd7555d270cc6a89c4f575184f3b5"
+		},
+		"testnet-account3": {
+			"address": "0x22e4f4db27545892",
+			"keys": "bc70df9cc8ba89b13c4507d25223f7083642e8f4ec8eaba986dfea02dc2b238b"
+		},
+		"testnet-account4": {
+			"address": "0xc6834d0636ae584d",
+			"keys": "5461c2cde94bddb52bf8bc3a53d1845f89ce7082df0898d8ac807d37ef9365bb"
+		}
+	},
+	"deployments": {
+		"emulator": {
+			"emulator-account": [
+				"Metaya",
+				"MetayaUtilityCoin",
+				"MetayaShardedCollection",
+				"MetayaBeneficiaryCut",
+				"NFTStorefront",
+				"SoundlinksDID",
+				"NonFungibleToken",
+				"FlowStorageFees"
+			]
+		},
+		"testnet": {
+			"testnet-account-metaya": [
+				"Metaya",
+				"MetayaUtilityCoin",
+				"MetayaShardedCollection",
+				"MetayaBeneficiaryCut"
+			],
+			"testnet-account-soundlinks": [
+				"SoundlinksDID"
+			]
+		}
+	}
+}
