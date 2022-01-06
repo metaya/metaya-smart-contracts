@@ -8,8 +8,8 @@
     SPDX-License-Identifier: Apache-2.0
 **/
 
-import Metaya from "./Metaya.cdc"
-import MetayaShardedCollection from "./MetayaShardedCollection.cdc"
+import Metaya from 0x8b935cd43003d4b2
+import MetayaShardedCollection from 0x8b935cd43003d4b2
 
 pub contract MetayaAdminReceiver {
 

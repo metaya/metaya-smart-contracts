@@ -9,7 +9,7 @@
     SPDX-License-Identifier: Apache-2.0
 **/
 
-import FungibleToken from "./FungibleToken.cdc"
+import FungibleToken from 0xf233dcee88fe0abe
 
 pub contract MetayaBeneficiaryCut {
 

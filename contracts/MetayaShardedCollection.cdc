@@ -9,8 +9,8 @@
     SPDX-License-Identifier: Apache-2.0
 **/
 
-import NonFungibleToken from "./NonFungibleToken.cdc"
-import Metaya from "./Metaya.cdc"
+import NonFungibleToken from 0x1d7e57aa55817448
+import Metaya from 0x8b935cd43003d4b2
 
 pub contract MetayaShardedCollection {
 
