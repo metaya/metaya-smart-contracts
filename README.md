@@ -37,35 +37,35 @@ Soundlinks DID requires minimal storage ( no need to store audio content itself 
 | Network | Contract Address     |
 |---------|----------------------|
 | Testnet | [0x2c5bdf0e0d907421](https://flow-view-source.com/testnet/account/0x2c5bdf0e0d907421/contract/Metaya) |
-| Mainnet |  |
+| Mainnet | [0x8b935cd43003d4b2](https://flow-view-source.com/mainnet/account/0x8b935cd43003d4b2/contract/Metaya) |
 
 `MetayaShardedCollection.cdc` : This contract bundles together a bunch of MomentCollection objects in a dictionary, and then distributes the individual Moments between them while implementing the same public interface as the default MomentCollection implementation.
 
 | Network | Contract Address     |
 |---------|----------------------|
 | Testnet | [0x2c5bdf0e0d907421](https://flow-view-source.com/testnet/account/0x2c5bdf0e0d907421/contract/MetayaShardedCollection) |
-| Mainnet |  |
+| Mainnet | [0x8b935cd43003d4b2](https://flow-view-source.com/mainnet/account/0x8b935cd43003d4b2/contract/MetayaShardedCollection) |
 
 `MetayaUtilityCoin.cdc` : The utility coins circulates on Metaya.
 
 | Network | Contract Address     |
 |---------|----------------------|
 | Testnet | [0x2c5bdf0e0d907421](https://flow-view-source.com/testnet/account/0x2c5bdf0e0d907421/contract/MetayaUtilityCoin) |
-| Mainnet |  |
+| Mainnet | [0x8b935cd43003d4b2](https://flow-view-source.com/mainnet/account/0x8b935cd43003d4b2/contract/MetayaUtilityCoin) |
 
 `MetayaBeneficiaryCut.cdc` : This smart contract stores the mappings from the names of copyright owners to the vaults in which they'd like to receive tokens, as well as the cut they'd like to take from store and pack sales revenue and marketplace transactions.
 
 | Network | Contract Address     |
 |---------|----------------------|
 | Testnet | [0x2c5bdf0e0d907421](https://flow-view-source.com/testnet/account/0x2c5bdf0e0d907421/contract/MetayaBeneficiaryCut) |
-| Mainnet |  |
+| Mainnet | [0x8b935cd43003d4b2](https://flow-view-source.com/mainnet/account/0x8b935cd43003d4b2/contract/MetayaBeneficiaryCut)|
 
 `NFTStorefront.cdc`: The general-purpose contract is used in the Metaya market.
 
 | Network | Contract Address     |
 |---------|----------------------|
 | Testnet | [0x94b06cfca1d8a476](https://flow-view-source.com/testnet/account/0x94b06cfca1d8a476/contract/NFTStorefront) |
-| Mainnet | [0x4eb8a10cb9f87357](https://flowscan.org/contract/A.4eb8a10cb9f87357.NFTStorefront) |
+| Mainnet | [0x4eb8a10cb9f87357](https://flow-view-source.com/mainnet/account/0x4eb8a10cb9f87357/contract/NFTStorefront) |
 
 # SOUNDLINKS Contract Address
 
@@ -74,7 +74,7 @@ Soundlinks DID requires minimal storage ( no need to store audio content itself 
 | Network | Contract Address     |
 |---------|----------------------|
 | Testnet | [0x2771ed97c1150a08](https://flow-view-source.com/testnet/account/0x2771ed97c1150a08/contract/SoundlinksDID) |
-| Mainnet |  |
+| Mainnet | [0x602e888f32abc278](https://flow-view-source.com/mainnet/account/0x602e888f32abc278/contract/SoundlinksDID) |
 
 # Common Commands
 
